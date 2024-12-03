@@ -11,6 +11,7 @@ memory_regions = [
     [0x8000_0000, 0x100_0000, 0xf], # Low RAM		16M	0b1111  R|W|EXECUTE|U
     [0x0c00_0000, 0x21_0000, 0x13], # PLIC  0x21_0000	0b10011 R|W|DEVICE
     [0x1000_0000, 0x1000, 0x13],    # UART	     4K	0b10011 R|W|DEVICE
+    # [0x4000_0000, 0x4000_0000, 0x13],    # DISK	     4K	0b10011 R|W|DEVICE
 ]
 
 # Emu_devices
