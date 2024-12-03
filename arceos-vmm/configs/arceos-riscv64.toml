@@ -4,7 +4,9 @@ vm_type = 1
 cpu_num = 1
 phys_cpu_sets = [1]
 entry_point = 0x8020_0000
-kernel_path = "arceos-riscv64.bin"
+# kernel_path = "arceos-riscv64.bin"
+kernel_path = "helloworld_riscv64-qemu-virt.bin"
+# kernel_path = "u_8_0_riscv64-qemu-virt.bin"
 kernel_load_addr = 0x8020_0000
 # Memory regions with format (`base_paddr`, `size`, `flags`).
 memory_regions = [
